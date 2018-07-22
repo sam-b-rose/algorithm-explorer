@@ -1,0 +1,70 @@
+{
+  "name": "algorithm-explorer",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "precommit": "pretty-quick --staged",
+    "gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "npm run build && npm run gh-pages"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "@fortawesome/vue-fontawesome": "^0.0.22",
+    "@ibm/plex": "^1.0.2",
+    "findandreplacedomtext": "^0.4.6",
+    "lodash": "^4.17.5",
+    "typed.js": "^2.0.6",
+    "vue": "^2.5.13",
+    "vue-scrollto": "^2.11.0",
+    "x-particles": "^1.0.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "bulma": "^0.6.2",
+    "husky": "^0.14.3",
+    "node-sass": "^4.8.3",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^6.0.7",
+    "stylelint": "^9.2.0",
+    "stylelint-config-property-sort-order-smacss": "^3.0.1",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.0.0",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/strongly-recommended",
+      "eslint:recommended"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-recommended-scss",
+      "stylelint-config-property-sort-order-smacss"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
