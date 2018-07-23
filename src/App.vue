@@ -9,7 +9,8 @@
       @scroll="handleScroll">
       <div
         class="intro"
-        tabindex="-1">
+        tabindex="-1"
+        @keyup.stop.prevent>
         <h1 class="title is-spaced">Algorithm Explorer</h1>
         <h2 class="subtitle">This framework explores machine learning techniques top down.</h2>
         <div class="content">
@@ -38,7 +39,6 @@
       </div>
       <div class="steps-container">
         <Step
-          tabindex="-1"
           v-for="(step, i) in steps"
           :key="i"
           :step="i + 1"
@@ -76,7 +76,7 @@
                 <button
                   class="button is-text"
                   tabindex="0"
-                  @keyup.enter="goToStep(currentStep - 1)"
+                  @keyup.enter.stop.prevent="goToStep(currentStep - 1)"
                   @click="goToStep(currentStep - 1)">
                   Go back
                 </button>
@@ -192,7 +192,7 @@ export default {
   /* ♻️ Lifecycle Hooks */
   created() {
     this.throttleHandleKeydown = throttle(this.handleKeydown, 500);
-    window.addEventListener('keydown', this.throttleHandleKeydown, true);
+    window.addEventListener('keydown', this.throttleHandleKeydown);
     window.addEventListener('resize', this.handelResize);
   },
   mounted() {
@@ -204,7 +204,7 @@ export default {
   },
 
   methods: {
-    /* Global Handlers */
+    /* 🌎 Global Handlers */
     handelResize() {
       if (!this.term) return;
       const activeTerm = document.querySelector('.vocab--active');
@@ -337,7 +337,8 @@ body,
 .scroller {
   position: relative;
   width: 100%;
-  height: calc(100% - #{$navigator-height});
+  height: 100%;
+  padding-bottom: $navigator-height;
   overflow: auto;
 }
 
@@ -353,7 +354,7 @@ body,
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  height: 100%;
+  min-height: 100%;
 }
 
 .start {

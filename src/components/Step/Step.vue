@@ -1,5 +1,8 @@
 <template>
-  <div class="step">
+  <div
+    class="step"
+    tabindex="-1"
+    @keyup.stop.prevent>
     <header v-if="title">
       <span class="step-number">{{ step }}. </span>
       <span

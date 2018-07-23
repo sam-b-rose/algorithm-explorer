@@ -64,10 +64,12 @@ export default {
 
 <style lang="scss" scoped>
 .navigator {
+  display: flex;
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
+  align-items: center;
   height: $navigator-height;
   transform: translateY(100%);
   transition: all 0.45s;
@@ -80,17 +82,16 @@ export default {
 
 .navigator-container {
   display: flex;
+  flex: 1 1 auto;
   flex-flow: column nowrap;
   justify-content: center;
-  max-width: 800px;
   height: 100%;
-  margin: auto;
-  padding: 0 2rem;
+  margin: 0 1rem;
 }
 
 .progress {
   position: relative;
-  width: 200px;
+  max-width: 200px;
   height: 4px;
   overflow: hidden;
   border-radius: 12px;
@@ -114,11 +115,9 @@ export default {
 
 .controls {
   display: flex;
-  position: absolute;
-  top: 50%;
-  right: 1rem;
+  flex: 0 0 auto;
   align-items: center;
-  transform: translateY(-50%);
+  margin-right: 1rem;
   border: 1px solid rgba($light, 0.3);
   border-radius: 4px;
 }
