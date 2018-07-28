@@ -1,0 +1,10 @@
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/elements/_all';
+@import '~bulma/sass/grid/_all';
+@import '~bulma/sass/layout/_all';
+
+// Bulma Overrides
+.title:not(:last-child),
+.subtitle:not(:last-child) {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,101 @@
+{
+  "hyperplane":
+    "A hyperplane in a 1-dimensional (1D) space is a point. In a 2-dimensional (2D) space, it is a line. A hyperplane in 3-dimensional (3D) space is a plane, a flat surface. To generalize for any dimension, the concept is referred to as a hyperplane.",
+  "linear relationships":
+    "A relationship is linear if a change in the first variable corresponds to a constant change in the second variable.",
+  "hidden layers":
+    "These are a number of neurons which mathematically transform the data. They are referred to as \"hidden\" as the user is only concerned with the input layers, where the features are passed, and the output layers, where the prediction is made.",
+  "input":
+    "The features are passed as inputs, e.g. size, brand, location, etc.",
+  "output":
+    "This is the target variable, the thing we are trying to predict, e.g. the price of an item.",
+  "target variable":
+    "This is the thing are are trying to predict, e.g. whether an action is fraudulent or not; the price of a product",
+  "observation":
+    "An observation is a single example, a data point or row in the data.",
+  "pooling":
+    "This is a way to combine data and is usually done by taking the mean average.",
+  "neurons":
+    "An artificial neuron is a mathematical function. It takes one or more inputs that are multiplied by values called \"weights\" and added together. This value is then passed to a non-linear function, referred to as an \"activation function\", which becomes the output.",
+  "n-dimensional space":
+    "A 1-dimensional (1D) space is represented simply as a line and 2-dimensional (2D) is referred to as the Cartesian plane, where you can move up or down and right or left. To generalize, n-dimensional space is used.",
+  "categories": "The terms categories and classes can be used interchangeably.",
+  "independent":
+    "Two features are independent if the value of one does not affect the value of the other. Two events are independent if the probability of one occurring does not affect the probability of the other occurring.",
+  "probability":
+    "Probability means to what extend something is likely to happen or be a particular case.",
+  "likelihood":
+    "The probability of an event occurring given a criteria can be represented as the likelihood of that criteria given the event occurring.",
+  "bayes theorem":
+    "Bayes Theorem is a mathematical formula for determining conditional probability.",
+  "binary outcome":
+    "A binary outcome means the variable will be one of two possible values, a 1 or a 0. A 1 indicates that the observation is in the class and a 0 would indicate it isn't.",
+  "non-linear relationships":
+    "A non-linear relationship means that the a change in the first variable doesn't necessarily correspond with a constant change in the second. However, they may impact each other but it appears to be unpredictable.",
+  "input-class":
+    "The features are passed as inputs, e.g. symptoms, laboratory results, historical diagnosis.",
+  "output-class":
+    "This is the target variable, the thing we are trying to predict, e.g. the clinical diagnosis.",
+  "model":
+    "Machine learning algorithms create a model after training, this is a mathematical function that can then be used to take a new observation and calculates an appropriate prediction.",
+  "threshold-class":
+    "The threshold by default is usually 50%; if the probability for an observation is calculated to be greater than 50% than it is predicted to be in the class.",
+  "k":
+    "k is a user-defined value referring to the number of clusters the algorithm should find.",
+  "cluster": "A group of similar things that are close together.",
+  "normal distribution":
+    "The normal, or Gaussian, distribution is a common probability distribution informally referred to as a bell curve due to its shape.",
+  "mean":
+    "Mean is the average calculated by summing up all values and dividing by the number of numbers.",
+  "standard deviation":
+    "Standard deviation is the measurement of variance in the data, how spread out the data is.",
+  "soft assignment":
+    "Rather than being assigned to one cluster, each point is assigned to all clusters with different probabilities",
+  "dense": "Closely compact areas of observations.",
+  "hierarchy of clusters":
+    "It is a tree based representation called a Dendrogram where each leaf is an observation and they are combined with branches. The similarity of the observations can be inferred by the height of the branch connecting them.",
+  "threshold":
+    "A boundary to use to make a decision. For clustering, this threshold might be used to stop the algorithm after a certain number of merges have occurred or when a certain number of clusters are identified. For classification, if the probability for an observation to be within a class is greater than the threshold, it will be classified as that class",
+  "characteristics":
+    "Characteristics are common or similar values seen in the data based upon features, e.g. people that spend a lot of money on rent, those that infrequently make purchases, etc.",
+  "boundary":
+    "This is the line, plane or hyperplane that divides the data between those that have been identified as \"normal\" and those that are not.",
+  "dimensionality reduction":
+    "The initial number of dimension will be the number of features. The goal of dimensionality reduction is to reduce the number of dimensions without losing important information.",
+  "neural network":
+    "Neural networks can learn complex patterns using “hidden layers” between inputs and the output. These layers are made of neurons which mathematically transform the data.",
+  "vector":
+    "A feature vector is a series of numbers describing the observations characteristics, e.g. brand, words included in the description, price, etc.",
+  "distance metric":
+    "A distance metric is a function that calculates the distance between elements, examples include Euclidean distance and cosine distance.",
+  "user-based filtering":
+    "User-based filtering recommends products to a user that similar users have liked.",
+  "item-based filtering":
+    "Item-based filtering identify similar items based on those previously liked.",
+  "bayesian networks":
+    "A Bayesian network is a graphical network where nodes are variables and edges are the conditional dependency between them.",
+  "matrix factorization":
+    "In the context of collaborative filtering, matrix factorization is trying to find a matrix for users and a matrix for items that when multiplied approximates the original rating table.",
+  "overfitting":
+    "An overfit model will have very high accuracy on the training data, having discovered useful features that are specific in the data it has seen. However, it will have low accuracy on test data as it cannot generalize.",
+  "neighborhood-based algorithm":
+    "A similarity measure identifies the most similar users to the user, or most similar items to the user's already-rated items. They are referred to as 'neighborhood' as if you were to plot the data points, these would be the closest",
+  "metadata":
+    "Data describing an item, its features. E.g. for a movie, the metadata is its genre, duration, actors, etc.",
+  "similarity measure":
+    "A function that quantifies the similarity between objects, e.g. cosine similarity",
+  "noise":
+    "Noise refers to data points are incorrect. These are usually identified if they are outliers, which means they are much different to the rest of the data set. However, be cautious as some outliers may be valid data points and worth investigating.",
+  "feature engineering":
+    "Feature engineering is the process of transforming the raw data into something more meaningful, this usually involves working with someone that has domain expertise.",
+  "high dimensional":
+    "High dimensional data means that the data has a very large number of features. If your data is represented in a CSV, database or Excel file, if there are a lot of columns which you will be using to build a model with, it's high dimensional",
+  "cold start problem":
+    "The term 'cold start' is coined from cars not running well when they've been left in the cold. When the recommendation engine doesn't have sufficient data on the user, it doesn't perform very well.",
+  "weighting":
+    "If you weight a value, you are assigning an adjustment to it based upon it's important. When pooling, rather than take an average of the values, you can multiple each value by its proportional distance from the item of interest.",
+  "parameters":
+    "A parameter is a numerical value that the user can define which is used by the  algorithm; these values impacts the success of the model",
+  "hyper-parameters":
+    "A hyper-parameter is a value that is set prior to building a model; these values are important as they impact the success of the model"
+}

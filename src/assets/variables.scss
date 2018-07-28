@@ -1,0 +1,40 @@
+// Font Stuff
+$font-prefix: '~@ibm/plex';
+@import '~@ibm/plex/scss/ibm-plex.scss';
+
+// 1. Import the initial variables
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+// 2. Set your own initial variables
+$blue: #1da1f2;
+$purple: #981ceb;
+
+// 3. Set the derived variables
+$primary: $blue;
+$primary-invert: findColorInvert($blue);
+$family-primary: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+$family-mono: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+  'Bitstream Vera Sans Mono', Courier, monospace;
+
+// 4. Setup your Custom Colors
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// 5. Add new color variables to the color map.
+@import '~bulma/sass/utilities/derived-variables';
+$addColors: (
+  'twitter': ($twitter, $twitter-invert),
+  'github': ($github, $github-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+@import '~bulma/sass/utilities/animations';
+@import '~bulma/sass/utilities/mixins';
+@import '~bulma/sass/utilities/controls';
+
+// Layout
+$navigator-height: 70px;
