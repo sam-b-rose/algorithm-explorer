@@ -4,14 +4,6 @@ export default [
     title: 'K-Means',
     description:
       'Clustering techniques are a common approach for anomaly detection. Clusters of "normal" characteristics are identified and if the distance between a new point and all other clusters is too great, it is identified as an anomaly. <br><br>K-Means Clustering aims to partition n observations (data points) into k clusters in which each observation belongs to the cluster with the nearest center. <br><br>For more examples of Clustering, please chose to explore more techniques below and select "Discover structure in your data"',
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'SparkML'
-      }
-    ],
     columns: [
       // 0
       {
@@ -39,14 +31,6 @@ export default [
     title: 'One-Class Support Vector Machines',
     description:
       'If you were to plot your data in an n-dimensional space (where n is the number of features), One-Class Support Vector Machines (SVM) attempt to identify the region where most cases lie, these are considered "normal". It will then fit a hyperplane that best separates these "normal" examples from the rest. When you have a new data point, it is labeled as "normal" or an "anomaly" depending how close it is to the "normal" boundary',
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'SparkML'
-      }
-    ],
     columns: [
       // 0
       {

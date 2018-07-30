@@ -266,7 +266,7 @@ export default {
       Object.keys(this.terms).forEach(term => {
         $vocabable.forEach(el =>
           findAndReplaceDOMText(el, {
-            find: new RegExp(`(?:^|[^\\S-])(${term})(?:$|[^\\S-])`, 'i'),
+            find: new RegExp(`(?:^|[^\\S-])(${term})(?:$|.|;|[^\\S-])`, 'i'),
             wrap: 'span',
             wrapClass: 'js-vocab'
           })
@@ -277,7 +277,7 @@ export default {
     },
     setTerm({ target }) {
       target.classList.add('vocab--active');
-      this.term = target.textContent.trim();
+      this.term = target.textContent.trim().replace(/[.;]+/, '');
       const { left, top, width, height } = target.getClientRects()[0];
       this.vocabPos = { x: left, y: top, width, height };
     },

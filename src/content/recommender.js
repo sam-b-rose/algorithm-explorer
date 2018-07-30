@@ -3,15 +3,7 @@ export default [
   {
     title: 'Content-based Recommenders',
     description:
-      'Content-based recommenders suggest similar items to those already liked by the customer, whether explicitly (e.g. by rating) or implicitly (by purchasing). This type of system uses metadata describing the item.<br><br> Each item is represented as a vector and a distance metric compares the items\' vectors to find the most similar.',
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'SparkML'
-      }
-    ],
+      "Content-based recommenders suggest similar items to those already liked by the customer, whether explicitly (e.g. by rating) or implicitly (by purchasing). This type of system uses metadata describing the item.<br><br> Each item is represented as a vector and a distance metric compares the items' vectors to find the most similar.",
     columns: [
       // 0
       {
@@ -28,7 +20,7 @@ export default [
         options: [
           'Important to have meaningful metadata, tagging can be tiresome',
           '"Cold start problem" for new users without history of liking items',
-          'Limits novelty as won\'t suggest items too disimilar to previously liked'
+          "Limits novelty as won't suggest items too disimilar to previously liked"
         ]
       }
     ]
@@ -37,15 +29,7 @@ export default [
   {
     title: 'Memory-based Collaborative Filtering',
     description:
-      'Collaborative filtering is a method of predicting a user\'s interest by analysing preferences by other users. There are two types, user-based filtering and item-based filtering. <br><br>Memory-based filtering computes similarity between users, or items, and uses other users\' ratings to make a prediction. A typical approach is a neighborhood-based algorithm; a similarity measure identifies the most similar users to the user, or items to user\'s already-rated items. The predicted rating for the user and each item is calcuated using other users\' ratings and the similarity distance',
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'SparkML'
-      }
-    ],
+      "Collaborative filtering is a method of predicting a user's interest by analysing preferences by other users. There are two types, user-based filtering and item-based filtering. <br><br>Memory-based filtering computes similarity between users, or items, and uses other users' ratings to make a prediction; a typical approach is a neighborhood-based algorithm. The predicted rating for the user and each item is calcuated using other users' ratings and the similarity distance",
     columns: [
       // 0
       {
@@ -71,7 +55,7 @@ export default [
   {
     title: 'Model-based Collaborative Filtering',
     description:
-      'Collaborative filtering is a method of predicting a user\'s interest by analysing preferences by other users. There are two types, user-based filtering and item-based filtering.  <br><br>Model-based recommenders use training data to build a model, a mathematical formula that takes the features of an observation and calculates a prediction. There are many algorithms to use, including neural networks, Bayesian networks and matrix factorization.',
+      "Collaborative filtering is a method of predicting a user's interest by analysing preferences by other users. There are two types, user-based filtering and item-based filtering.  <br><br>Model-based recommenders use training data to build a model, a mathematical formula that takes the features of an observation and calculates a prediction. There are many algorithms to use, including neural networks, Bayesian networks and matrix factorization.",
     examples: [
       {
         text: 'Python'
@@ -88,7 +72,7 @@ export default [
       {
         title: 'Pros',
         options: [
-          'Fast & scalable; doesn\'t require the full dataset each time',
+          "Fast & scalable; doesn't require the full dataset each time",
           'User-based suggestions can result in a diverse set of suggestions across domains',
           'User-based suggestions do not require metadata'
         ]
