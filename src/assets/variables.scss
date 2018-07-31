@@ -1,6 +1,7 @@
 // Font Stuff
 $font-prefix: '~@ibm/plex';
-@import '~@ibm/plex/scss/ibm-plex.scss';
+@import '~@ibm/plex/scss/sans/index';
+@import '~@ibm/plex/scss/mono/index';
 
 // 1. Import the initial variables
 @import '~bulma/sass/utilities/initial-variables';
@@ -26,8 +27,14 @@ $github-invert: findColorInvert($github);
 // 5. Add new color variables to the color map.
 @import '~bulma/sass/utilities/derived-variables';
 $addColors: (
-  'twitter': ($twitter, $twitter-invert),
-  'github': ($github, $github-invert)
+  'twitter': (
+    $twitter,
+    $twitter-invert
+  ),
+  'github': (
+    $github,
+    $github-invert
+  )
 );
 $colors: map-merge($colors, $addColors);
 

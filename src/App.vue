@@ -332,8 +332,7 @@ body,
 .scroller {
   position: relative;
   width: 100%;
-  height: 100%;
-  padding-bottom: $navigator-height;
+  height: calc(100% - #{$navigator-height});
   overflow: auto;
 }
 
