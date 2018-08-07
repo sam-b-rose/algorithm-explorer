@@ -56,17 +56,6 @@ export default [
     title: 'Model-based Collaborative Filtering',
     description:
       "Collaborative filtering is a method of predicting a user's interest by analysing preferences by other users. There are two types, user-based filtering and item-based filtering.  <br><br>Model-based recommenders use training data to build a model, a mathematical formula that takes the features of an observation and calculates a prediction. There are many algorithms to use, including neural networks, Bayesian networks and matrix factorization.",
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'SparkML'
-      },
-      {
-        text: 'Keras'
-      }
-    ],
     columns: [
       // 0
       {
@@ -83,7 +72,7 @@ export default [
         options: [
           'Data sparsity can result in performance issues',
           'Models can be complex and slow to train',
-          '"Cold start problem" - new items struggle to be recommended (popularity bias) and for new users with on history its hard to make good recommendations'
+          '"Cold start problem" - new items struggle to be recommended (popularity bias) and for new users with no history its hard to make good recommendations'
         ]
       }
     ]

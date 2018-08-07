@@ -3,8 +3,8 @@ import techniques from './techniques';
 export default {
   title: 'Are you trying to...',
   options: [
-    'Predict a numerical outcome?',
-    'Predict a categorical outcome?',
+    'Predict a numerical value?',
+    'Classify your data?',
     'Discover structure in your data?',
     'Make recommendations?',
     'Detect outliers or unusual behavior?'
