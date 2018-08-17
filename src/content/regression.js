@@ -8,7 +8,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Yacht%20Resistance%20with%20Linear%20Regression.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/f5d68ca5-d447-4e65-a0a2-ef6667273d09/view?access_token=272ea47e1fa45e87aa7dc7a5f9e43e8bd9e711532dbac4635f0884005bfa119c'
       }
     ],
     columns: [
@@ -38,7 +38,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Yacht%20Resistance%20with%20Decision%20Trees%20%26%20Random%20Forests.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/796bf54a-0ec8-4aa6-8806-f0a2edcb396b/view?access_token=4d6e55059d9b0e5012900124b7d81b9f6f85924c914b0e40941e2734972ae4a6'
       }
     ],
     columns: [
@@ -68,7 +68,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Yacht%20Resistance%20with%20Neural%20Networks.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/3efdb5a2-0c33-4675-8336-be03929798a8/view?access_token=092b4149aa20ed1299d4def2f657b8da8c358d0baee9cb2d2f836d51fcc3f743'
       }
     ],
     columns: [
@@ -101,7 +101,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Yacht%20Resistance%20with%20K%20Nearest%20Neighbors.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/4cf4ed48-d075-4d53-9ee4-df19f9f7673f/view?access_token=608a6cd9071b4cfd4146755c4e61a40d1e974cf45bf1289a3c614e059a7471a6'
       }
     ],
     columns: [

@@ -8,7 +8,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Wine%20Types%20with%20SVM.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/8e70b9a2-233e-4d02-b76f-f4c591f7c9a1/view?access_token=816b86d52601bbc1123da38682685e879ca7de7c47863d67f83772e87838d257'
       }
     ],
     columns: [
@@ -41,7 +41,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Wine%20Types%20with%20Naive%20Bayes.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/40a67af0-6637-4aff-b8b6-bad1fe165abc/view?access_token=9ef86b37a6149c3f81b138c76f139800e85f6bca0d19cb1b52ac7c97174f4a43'
       }
     ],
     columns: [
@@ -73,7 +73,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Wine%20Types%20with%20Logistic%20Regression.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/9918ce54-47d9-4fad-9d6a-34ffa01d0beb/view?access_token=f96693cf491105dcb4f04c5ed7598e3c4ccf37658c4a68e3b47e4706e338042e'
       }
     ],
     columns: [
@@ -105,7 +105,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Wine%20Types%20with%20Decision%20Trees%20%26%20Random%20Forest.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/d3f5c820-9e9f-4332-9265-5301682d04ba/view?access_token=135180adab14764289934af5feeb385699bfc57703ade4e5d1c1f2a0b6262e17'
       }
     ],
     columns: [
@@ -137,7 +137,7 @@ export default [
       {
         text: 'Python',
         href:
-          'http://nbviewer.jupyter.org/github/srnghn/ml_example_notebooks/blob/master/Predicting%20Wine%20Types%20with%20Neural%20Networks.ipynb'
+          'https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/54683b05-9f28-4843-a904-a269f5e021aa/view?access_token=8ed197d423df638001d0d943d013a1d7dca67afae7a0283c4f5ce1950189286e'
       }
     ],
     columns: [
