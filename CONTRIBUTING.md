@@ -35,7 +35,7 @@ You can request a new feature by submitting an issue to this repo. Proposed feat
 
    See [GitHub docs](https://help.github.com/articles/fork-a-repo/) for more details on forking a repository.
 
-3. Once cloned, you will see `origin` as your default remote, pointing to your personal forked repository. Add a remote named `upstream` pointing to the main `carbon-components-react`:
+3. Once cloned, you will see `origin` as your default remote, pointing to your personal forked repository. Add a remote named `upstream` pointing to the main `algorithm-explorer`:
 
    ```
    $ git remote add upstream git@github.com:samrose3/algorithm-explorer.git
