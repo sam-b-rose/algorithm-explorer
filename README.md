@@ -8,7 +8,7 @@ The user begins by selecting the type of problem they are trying to solve. They 
 
 The framework also includes examples, pros and cons for the different algorithms.
 
-View the [Algorithm Explorer](https://samrose3.github.io/algorithm/explorer) 🔍
+View the [Algorithm Explorer](https://samrose3.github.io/algorithm-explorer) 🔍
 
 ## Development
 
