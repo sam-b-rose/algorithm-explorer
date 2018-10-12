@@ -57,14 +57,6 @@ export default [
     title: 'Autoencoder',
     description:
       'An Autoencoder is a technique for dimensionality reduction. It is a type of neural network where the first part of the network, called the encoder, reduces the input to a lower dimension. The second part of the network, called the decoder, aims to reconstruct the original input. The goal is to create a model where the input and the output are the same. A new data point can be passed through the model and if the error between the input data and the computed output is too great, it can be flagged as an "anomaly".',
-    examples: [
-      {
-        text: 'Python'
-      },
-      {
-        text: 'Keras'
-      }
-    ],
     columns: [
       // 0
       {
