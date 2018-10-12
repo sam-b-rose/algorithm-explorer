@@ -97,5 +97,7 @@
   "parameters":
     "A parameter is a numerical value that the user can define which is used by the  algorithm; these values impacts the success of the model",
   "hyper-parameters":
-    "A hyper-parameter is a value that is set prior to building a model; these values are important as they impact the success of the model"
+    "A hyper-parameter is a value that is set prior to building a model; these values are important as they impact the success of the model",
+  "labeled data":
+    "Labeled data refers to having examples or observations with a target value, also known as 'ground truth'. An algorithm uses labeled data during training to learn how best to predict a label given features"
 }
